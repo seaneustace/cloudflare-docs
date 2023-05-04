@@ -26,7 +26,7 @@ Define the exception expression using the [Rules language](/ruleset-engine/rules
 
 ## Additional notes
 
-WAF exceptions only apply to rules executing a managed ruleset listed after them. If you add a WAF exception at the end of the WAF rules list, nothing will be skipped.
+If you add a WAF exception  below your Managed Rulesets, nothing will be skipped.
 
 WAF exceptions have priority over [overrides](/ruleset-engine/managed-rulesets/override-managed-ruleset/).
 
